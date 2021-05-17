@@ -11,4 +11,6 @@ Note: Personal Access Token should have `repo` scope granted in order to access 
 ## Usage
 Simply run `run_docker.sh`. After build process has completed and github runner has started, runner should be visible in repositorie's `Settings/Actions/Runners`.
 
+Note: Android emulator starts with `-accel on`, which assumes kvm VM acceleration. This requires host machine to have `/dev/kvm` available in order to work.
+
 
