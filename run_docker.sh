@@ -12,5 +12,5 @@ sudo docker run -t \
 				-e RUNNER_NAME=$RUNNER_NAME \
 				-e REPO_OWNER=$REPO_OWNER \
 				-e REPO_NAME=$REPO_NAME \
-				--device=/dev/kvm --rm $DOCKER_CONTAINER_NAME bash -c "./start.sh" &
+				--device=/dev/kvm --rm $DOCKER_CONTAINER_NAME bash -c "./start.sh"
 
